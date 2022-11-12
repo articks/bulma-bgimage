@@ -1,0 +1,66 @@
+@each $s in cover, contain, auto
+    .is-bg#{$s}
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: #{$s}
+        @each $p in before, after
+            &-#{$p}
+                @extend %is-bg-cca-ba !optional
+                @for $i from 1 through 10
+                    &-#{$i}0
+                        @extend %is-bg-cca-ba !optional
+                @if #{$p} == 'before'
+                    &::before
+                        @extend %is-bg-#{$s}-b !optional
+                        @extend %is-bg-ba-op-100 !optional
+                    @for $i from 1 through 10
+                        &-#{$i}0::before
+                            @extend %is-bg-#{$s}-b !optional
+                            @extend %is-bg-ba-op-#{$i}0 !optional
+                @if #{$p} == 'after'
+                    &::after
+                        @extend %is-bg-#{$s}-a !optional
+                        @extend %is-bg-ba-op-100 !optional
+                    @for $i from 1 through 10
+                        &-#{$i}0::after
+                            @extend %is-bg-#{$s}-a !optional
+                            @extend %is-bg-ba-op-#{$i}0 !optional
+
+    %is-bg-#{$s}-b
+        content: ""
+        background-color: inherit
+        background-image: inherit
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: #{$s}
+        position: absolute
+        z-index: 0
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+
+    %is-bg-#{$s}-a
+        content: ""
+        background-color: inherit
+        background-image: inherit
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: #{$s}
+        position: absolute
+        z-index: 0
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+
+
+%is-bg-cca-ba
+    position: relative
+    background-position: 1000% 1000%
+    background-repeat: no-repeat
+    background-size: 1px
+
+@for $i from 1 through 10
+    %is-bg-ba-op-#{$i}0
+        opacity: $i * 0.1

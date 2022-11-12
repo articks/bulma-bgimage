@@ -1,0 +1,296 @@
+.is-bgcover {
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.is-bgcontain {
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+.is-bgauto {
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+.is-bgcover-before,
+.is-bgcover-before-10,
+.is-bgcover-before-20,
+.is-bgcover-before-30,
+.is-bgcover-before-40,
+.is-bgcover-before-50,
+.is-bgcover-before-60,
+.is-bgcover-before-70,
+.is-bgcover-before-80,
+.is-bgcover-before-90,
+.is-bgcover-before-100,
+.is-bgcontain-before,
+.is-bgcontain-before-10,
+.is-bgcontain-before-20,
+.is-bgcontain-before-30,
+.is-bgcontain-before-40,
+.is-bgcontain-before-50,
+.is-bgcontain-before-60,
+.is-bgcontain-before-70,
+.is-bgcontain-before-80,
+.is-bgcontain-before-90,
+.is-bgcontain-before-100,
+.is-bgauto-before,
+.is-bgauto-before-10,
+.is-bgauto-before-20,
+.is-bgauto-before-30,
+.is-bgauto-before-40,
+.is-bgauto-before-50,
+.is-bgauto-before-60,
+.is-bgauto-before-70,
+.is-bgauto-before-80,
+.is-bgauto-before-90,
+.is-bgauto-before-100,
+.is-bgcover-after,
+.is-bgcover-after-10,
+.is-bgcover-after-20,
+.is-bgcover-after-30,
+.is-bgcover-after-40,
+.is-bgcover-after-50,
+.is-bgcover-after-60,
+.is-bgcover-after-70,
+.is-bgcover-after-80,
+.is-bgcover-after-90,
+.is-bgcover-after-100,
+.is-bgcontain-after,
+.is-bgcontain-after-10,
+.is-bgcontain-after-20,
+.is-bgcontain-after-30,
+.is-bgcontain-after-40,
+.is-bgcontain-after-50,
+.is-bgcontain-after-60,
+.is-bgcontain-after-70,
+.is-bgcontain-after-80,
+.is-bgcontain-after-90,
+.is-bgcontain-after-100,
+.is-bgauto-after,
+.is-bgauto-after-10,
+.is-bgauto-after-20,
+.is-bgauto-after-30,
+.is-bgauto-after-40,
+.is-bgauto-after-50,
+.is-bgauto-after-60,
+.is-bgauto-after-70,
+.is-bgauto-after-80,
+.is-bgauto-after-90,
+.is-bgauto-after-100 {
+    position:relative;
+    background-position:1000% 1000%;
+    background-repeat:no-repeat;
+    background-size:1px;
+}
+.is-bgcover-before::before,
+.is-bgcover-before-10::before,
+.is-bgcover-before-20::before,
+.is-bgcover-before-30::before,
+.is-bgcover-before-40::before,
+.is-bgcover-before-50::before,
+.is-bgcover-before-60::before,
+.is-bgcover-before-70::before,
+.is-bgcover-before-80::before,
+.is-bgcover-before-90::before,
+.is-bgcover-before-100::before {
+    content:"";
+    background-color:inherit;
+    background-image:inherit;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:absolute;
+    z-index:0;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.is-bgcontain-before::before,
+.is-bgcontain-before-10::before,
+.is-bgcontain-before-20::before,
+.is-bgcontain-before-30::before,
+.is-bgcontain-before-40::before,
+.is-bgcontain-before-50::before,
+.is-bgcontain-before-60::before,
+.is-bgcontain-before-70::before,
+.is-bgcontain-before-80::before,
+.is-bgcontain-before-90::before,
+.is-bgcontain-before-100::before {
+    content:"";
+    background-color:inherit;
+    background-image:inherit;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    z-index:0;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.is-bgauto-before::before,
+.is-bgauto-before-10::before,
+.is-bgauto-before-20::before,
+.is-bgauto-before-30::before,
+.is-bgauto-before-40::before,
+.is-bgauto-before-50::before,
+.is-bgauto-before-60::before,
+.is-bgauto-before-70::before,
+.is-bgauto-before-80::before,
+.is-bgauto-before-90::before,
+.is-bgauto-before-100::before {
+    content:"";
+    background-color:inherit;
+    background-image:inherit;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:auto;
+    position:absolute;
+    z-index:0;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.is-bgcover-after::after,
+.is-bgcover-after-10::after,
+.is-bgcover-after-20::after,
+.is-bgcover-after-30::after,
+.is-bgcover-after-40::after,
+.is-bgcover-after-50::after,
+.is-bgcover-after-60::after,
+.is-bgcover-after-70::after,
+.is-bgcover-after-80::after,
+.is-bgcover-after-90::after,
+.is-bgcover-after-100::after {
+    content:"";
+    background-color:inherit;
+    background-image:inherit;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:absolute;
+    z-index:1000;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.is-bgcontain-after::after,
+.is-bgcontain-after-10::after,
+.is-bgcontain-after-20::after,
+.is-bgcontain-after-30::after,
+.is-bgcontain-after-40::after,
+.is-bgcontain-after-50::after,
+.is-bgcontain-after-60::after,
+.is-bgcontain-after-70::after,
+.is-bgcontain-after-80::after,
+.is-bgcontain-after-90::after,
+.is-bgcontain-after-100::after {
+    content:"";
+    background-color:inherit;
+    background-image:inherit;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:absolute;
+    z-index:1000;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.is-bgauto-after::after,
+.is-bgauto-after-10::after,
+.is-bgauto-after-20::after,
+.is-bgauto-after-30::after,
+.is-bgauto-after-40::after,
+.is-bgauto-after-50::after,
+.is-bgauto-after-60::after,
+.is-bgauto-after-70::after,
+.is-bgauto-after-80::after,
+.is-bgauto-after-90::after,
+.is-bgauto-after-100::after {
+    content:"";
+    background-color:inherit;
+    background-image:inherit;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:auto;
+    position:absolute;
+    z-index:1000;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
+.is-bgcover-before::before,
+.is-bgcover-before-100::before,
+.is-bgcontain-before::before,
+.is-bgcontain-before-100::before,
+.is-bgauto-before::before,
+.is-bgauto-before-100::before,
+.is-bgcover-after::after,
+.is-bgcover-after-100::after,
+.is-bgcontain-after::after,
+.is-bgcontain-after-100::after,
+.is-bgauto-after::after,
+.is-bgauto-after-100::after { opacity:1; }
+.is-bgcover-before-10::before,
+.is-bgcontain-before-10::before,
+.is-bgauto-before-10::before,
+.is-bgcover-after-10::after,
+.is-bgcontain-after-10::after,
+.is-bgauto-after-10::after { opacity:0.1; }
+.is-bgcover-before-20::before,
+.is-bgcontain-before-20::before,
+.is-bgauto-before-20::before,
+.is-bgcover-after-20::after,
+.is-bgcontain-after-20::after,
+.is-bgauto-after-20::after { opacity:0.2; }
+.is-bgcover-before-30::before,
+.is-bgcontain-before-30::before,
+.is-bgauto-before-30::before,
+.is-bgcover-after-30::after,
+.is-bgcontain-after-30::after,
+.is-bgauto-after-30::after { opacity:0.3; }
+.is-bgcover-before-40::before,
+.is-bgcontain-before-40::before,
+.is-bgauto-before-40::before,
+.is-bgcover-after-40::after,
+.is-bgcontain-after-40::after,
+.is-bgauto-after-40::after { opacity:0.4; }
+.is-bgcover-before-50::before,
+.is-bgcontain-before-50::before,
+.is-bgauto-before-50::before,
+.is-bgcover-after-50::after,
+.is-bgcontain-after-50::after,
+.is-bgauto-after-50::after { opacity:0.5; }
+.is-bgcover-before-60::before,
+.is-bgcontain-before-60::before,
+.is-bgauto-before-60::before,
+.is-bgcover-after-60::after,
+.is-bgcontain-after-60::after,
+.is-bgauto-after-60::after { opacity:0.6; }
+.is-bgcover-before-70::before,
+.is-bgcontain-before-70::before,
+.is-bgauto-before-70::before,
+.is-bgcover-after-70::after,
+.is-bgcontain-after-70::after,
+.is-bgauto-after-70::after { opacity:0.7; }
+.is-bgcover-before-80::before,
+.is-bgcontain-before-80::before,
+.is-bgauto-before-80::before,
+.is-bgcover-after-80::after,
+.is-bgcontain-after-80::after,
+.is-bgauto-after-80::after { opacity:0.8; }
+.is-bgcover-before-90::before,
+.is-bgcontain-before-90::before,
+.is-bgauto-before-90::before,
+.is-bgcover-after-90::after,
+.is-bgcontain-after-90::after,
+.is-bgauto-after-90::after { opacity:0.9; }
